@@ -37,6 +37,8 @@ ESP32 parses JSON ──▶ renders on TFT
 
 SCK/SDA use the ESP32's hardware VSPI pins for full-speed SPI. This board is 3.3V logic — do not connect VCC to 5V.
 
+Note: SCK/SDA not to be confused with I2C. Here SCK is clock, SDA is MOSI and CS exists at GPIO5. MISO is not used for this as we are not taking any input from display to ESP.
+
 If the display shows a wrong-colored or noisy image on first boot, try a different init tab variant in `main.cpp` (`INITR_GREENTAB`, `INITR_REDTAB`, etc.) — cheap ST7735 clones vary and this is the most common fix.
 
 ## Setup
