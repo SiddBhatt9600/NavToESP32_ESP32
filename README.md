@@ -4,6 +4,8 @@ The display-side half of NAV2ESP: PlatformIO firmware for an ESP32 that receives
 
 The Android app that drives this is a separate repo: https://github.com/SiddBhatt9600/NavToESP32_Android.
 
+<img width="900" height="1193" alt="esp32" src="https://github.com/user-attachments/assets/d29368b8-4dac-48bc-87a5-d67130e44ec2" />
+
 ## How it works
 
 ```
